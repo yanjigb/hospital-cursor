@@ -1,33 +1,24 @@
 import {
-    AlertTriangle,
     ArrowRight,
-    Check,
     ChevronLeft,
     ChevronRight,
     Command,
-    CreditCard,
-    File,
-    FileText,
     Github,
     HelpCircle,
-    Image,
     Laptop,
     Loader2,
     LucideProps,
     Moon,
-    MoreVertical,
     Pizza,
-    Plus,
     Settings,
     SunMedium,
     Trash,
-    Twitter,
     User,
     X,
     type Icon as LucideIcon,
 } from "lucide-react"
 
-export type Icon = LucideIcon
+export type Icon = typeof LucideIcon
 
 export const Icons = {
     logo: Command,
