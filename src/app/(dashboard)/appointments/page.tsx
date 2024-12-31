@@ -110,7 +110,7 @@ export default function AppointmentsPage() {
                                 months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
                             }}
                             components={{
-                                DayContent: ({ day, date }) => (
+                                DayContent: ({ date }) => (
                                     <div
                                         className={cn(
                                             "relative w-full h-full flex items-center justify-center",
